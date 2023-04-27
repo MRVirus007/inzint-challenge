@@ -1,0 +1,4 @@
+If this.client.send error occurs,
+downgrade multer version
+npm i multer-s3@2.10.0
+either use S3Client https://stackoverflow.com/questions/72431773/multers3-is-giving-this-client-send-is-not-a-function-error

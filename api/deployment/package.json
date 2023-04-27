@@ -1,0 +1,19 @@
+{
+  "name": "video-upload-lambda",
+  "version": "1.0.0",
+  "description": "Lambda function to extract a thumbnail from a video and upload the video and thumbnail to S3.",
+  "main": "index.js",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "aws-sdk": "^2.986.0",
+    "dotenv": "^16.0.3",
+    "ffmpeg-extract-frames": "^2.0.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "mongoose": "^7.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}

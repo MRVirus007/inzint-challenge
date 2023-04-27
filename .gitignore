@@ -1,0 +1,6 @@
+api/node_modules
+api/package-lock
+api/deployment/node_modules
+api/deployment/package-lock
+app/node_modules
+app/package-lock
